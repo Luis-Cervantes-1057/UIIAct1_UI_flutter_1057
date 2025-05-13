@@ -45,25 +45,25 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         children: <Widget>[
           makePage(
             page: 1,
-            image: 'assets/images/one.jpg',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/coca.png',
             title: 'Yosemite National Park',
             description: 'Yosemite National Park is in California’s Sierra Nevada mountains.'
           ),
           makePage(
             page: 2,
-            image: 'assets/images/two.jpg',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/agua.jpg',
             title: 'Golden Gate Bridge',
             description: 'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait.'
           ),
           makePage(
             page: 3,
-            image: 'assets/images/three.jpg',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/jugo.png',
             title: 'Sedona',
             description: "Sedona is regularly described as one of America's most beautiful places."
           ),
           makePage(
             page: 4,
-            image: 'assets/images/four.jpg',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/leche.jpg',
             title: 'Savannah',
             description: "Savannah, with its Spanish moss, Southern accents and creepy graveyards, is a lot like Charleston, South Carolina."
           ),
