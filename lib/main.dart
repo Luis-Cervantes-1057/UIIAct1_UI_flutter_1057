@@ -45,25 +45,25 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         children: <Widget>[
           makePage(
             page: 1,
-            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/coca.png?raw=true',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/coca.png',
             title: 'COCA-COLA',
             description: 'El refresco mas internacional y el favorito de todos'
           ),
           makePage(
             page: 2,
-            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/agua.jpg?raw=true',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/agua.jpg',
             title: 'AGUA CIEL',
             description: 'El agua mas purificada y vendida en todo nuetsro Mexico, 100% Reciclable'
           ),
           makePage(
             page: 3,
-            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/jugo.png?raw=true',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/jugo.png',
             title: 'Del Valle',
             description: "Los jugos mas deliciosos de Mexico, 100% Natural"
           ),
           makePage(
             page: 4,
-            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/leche.jpg?raw=true',
+            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/leche.jpg',
             title: 'Santa Clara',
             description: "Leche de vaca 100% Natural, con multiples sabores originada en nuestro Mexico"
           ),
