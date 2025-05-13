@@ -45,27 +45,27 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         children: <Widget>[
           makePage(
             page: 1,
-            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/coca.png',
-            title: 'Yosemite National Park',
-            description: 'Yosemite National Park is in California’s Sierra Nevada mountains.'
+            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/coca.png?raw=true',
+            title: 'COCA-COLA',
+            description: 'El refresco mas internacional y el favorito de todos'
           ),
           makePage(
             page: 2,
-            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/agua.jpg',
-            title: 'Golden Gate Bridge',
-            description: 'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait.'
+            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/agua.jpg?raw=true',
+            title: 'AGUA CIEL',
+            description: 'El agua mas purificada y vendida en todo nuetsro Mexico, 100% Reciclable'
           ),
           makePage(
             page: 3,
-            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/jugo.png',
-            title: 'Sedona',
-            description: "Sedona is regularly described as one of America's most beautiful places."
+            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/jugo.png?raw=true',
+            title: 'Del Valle',
+            description: "Los jugos mas deliciosos de Mexico, 100% Natural"
           ),
           makePage(
             page: 4,
-            image: 'https://raw.githubusercontent.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/refs/heads/main/assets/images/leche.jpg',
-            title: 'Savannah',
-            description: "Savannah, with its Spanish moss, Southern accents and creepy graveyards, is a lot like Charleston, South Carolina."
+            image: 'https://github.com/Luis-Cervantes-1057/UIIAct1_UI_flutter_1057/blob/main/assets/images/leche.jpg?raw=true',
+            title: 'Santa Clara',
+            description: "Leche de vaca 100% Natural, con multiples sabores originada en nuestro Mexico"
           ),
         ],
       ),
@@ -139,10 +139,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                         ),
                         Container(
                           margin: EdgeInsets.only(right: 5),
-                          child: Icon(Icons.star, color: Colors.grey, size: 15,),
+                          child: Icon(Icons.star, color: Colors.yellow, size: 15,),
                         ),
-                        Text('4.0', style: TextStyle(color: Colors.white70),),
-                        Text('(2300)', style: TextStyle(color: Colors.white38, fontSize: 12),)
+                        Text('5.0', style: TextStyle(color: Colors.white70),),
+                        Text('(10110)', style: TextStyle(color: Colors.white38, fontSize: 12),)
                       ],
                     )),
                     SizedBox(
@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       child: Text(description, style: TextStyle(color: Colors.white.withOpacity(.7), height: 1.9, fontSize: 15),),
                     )),
                     SizedBox(height: 20,),
-                    FadeInUp(child: Text('READ MORE', style: TextStyle(color: Colors.white),)),
+                    FadeInUp(child: Text('COMPRAR', style: TextStyle(color: Colors.white),)),
                     SizedBox(height: 30,),
                   ],
                 ),
